@@ -47,4 +47,37 @@ table {
 	border-spacing: 0;
 }
 /* ---------------------------------My Styles -----------------*/
-
+/* Image must be responsive and no bigger than 105px wide, bio text wrapped around image, <dt> bold and 1.15rem, no indents on <dd> and on the following line*/ 
+body{
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0.5em 0 1em;
+}
+img {
+  float:left;
+  margin: 0 1rem 0 0;
+  width:100%;
+  max-width: 150px;
+  height: auto;
+}
+p{
+  margin-bottom: 1rem;
+}
+.list{
+  margin: 1rem 0;
+}
+dt{
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: 5px 0;
+}
+dd {
+  margin-bottom: .5em;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
