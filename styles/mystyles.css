@@ -52,7 +52,7 @@ body{
   font-size: 16px;
   line-height: 1.5rem;
   background-color: rgb(250, 240, 230);
-  background-image: url(/images/Background.png);
+  background-image: url(../images/Background.png);
   background-repeat: repeat;
   background-size: 100px;
 }
